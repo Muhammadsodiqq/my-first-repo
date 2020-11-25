@@ -1,0 +1,513 @@
+/* mulish-300 - latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  src: 
+       url('../fonts/mulish-v1-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/mulish-v1-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* mulish-regular - latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+       url('../fonts/mulish-v1-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/mulish-v1-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* mulish-700 - latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  src: 
+       url('../fonts/mulish-v1-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/mulish-v1-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+body{
+    font-family: Mulish, sans-serif;
+    background: #E5E5E5;
+
+}
+
+      /*trafalgarda containerri uzunligi 1600px berilgan ekan 
+      manam 1600px berdim*/
+
+    .section-box{
+      margin-left: auto;
+      margin-right: auto;
+      width: 1600px;
+      margin-top: 1000px;
+      margin-bottom: 1000px;
+      background-color: white;
+    }
+    .container{
+      margin-bottom: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 1600px;
+      margin-top: 100px;
+      background-color: white;
+    }
+    .box{
+      margin: 0px;
+      padding: 0px;
+      /*border: solid 2px black;*/
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .unorder{
+      display: flex;
+
+    }
+    .list{
+      font-size: 18px;
+      line-height: 23px;
+      margin-top: 135px;
+      margin-right: 30px;
+      list-style-type: none;
+    }
+    .list a{
+      color: #1F1534;
+      opacity: 0.5;
+      text-decoration: none;
+    }
+
+    .listss{
+      margin-right: 0px;
+    }
+    .lists{
+      margin-right: 136px;
+      margin-left: 40px;
+    }
+    }
+    .unorder .home{
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 23px;
+      color: black;
+      opacity: 1;
+    }
+    .logo{
+      margin-top: 135px;
+      margin-left: 247px;
+    }
+
+    /*healthcare-section*/
+
+    .virtual{
+    display: flex;
+    /*border: solid 2px black;*/
+    width: 100%;
+      
+    }
+    .virtual-div{
+      /*border: solid 1px black;*/
+      display: flex;
+      flex-direction: column;
+      /*align-items: center;*/
+    }
+    .virtual-head{
+      margin-top: 191px;
+      margin-left: 246px;
+      font-size: 48px;
+      line-height: 56px;
+    }
+    .virtual-paragraf{
+      width: 445px;
+      margin-right: 109px;
+      margin-top: 25px;
+      margin-left: 246px;
+      font-size: 21px;
+      line-height: 32px;
+      color: #7D7987;
+    }
+    .illustration{
+      /*width: 692PX;*/
+      /*margin-right: 107px;*/
+      margin-top: 84px;
+      /*margin-left: 127px;*/
+    }
+    .virtual-link{
+      margin-top: 45px;
+      margin-right: 280px;
+      margin-left: 245px;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      width: 200px;
+      height: 60px;
+      font-size: 18px;
+      line-height: 60px;
+      color: #FFFFFF;
+      background: #458FF6;
+      border-radius: 55px;
+    }
+
+    /*serises-section*/
+
+
+
+    .servises-box{
+      /*border: solid 2px black;*/
+      width: 100%;
+    }
+    .servises-our{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .servises-unorder{
+      /*border: solid 1px black;*/
+      width: 1405px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .servises-head{
+      font-size: 36px;
+      line-height: 56px;
+    }
+    .servises-paragraf{
+      width: 952px;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      color: #7D7987;
+    }
+    
+
+    .devider{
+      border: 0px;
+      width: 56px;
+      height: 2px;
+      background-color: black;
+      border-radius: 5px;
+    }
+    .servises-list{
+      margin-bottom: 37px;
+      margin-left: 36px;
+      width: 350px;
+      height: 352px;
+      list-style-type: none;
+      background: #FFFFFF;
+      box-shadow: 10px 40px 50px 
+            rgba(229, 233, 246, 0.4);
+      border-radius: 20px;      
+    }
+    .servises-h3{
+      font-size: 24px;
+      line-height: 56px;
+      margin-left: 39px;
+    }
+    .servises-img{
+      margin-left: 37px;
+      margin-top: 54px;
+    }
+    .servises-p{
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 28px;
+      color: #7D7987;
+      margin-left: 39px;
+      margin-right: 45px;
+    }
+    .learn{
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 72px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1.4px solid #458FF6;
+      box-sizing: border-box;
+      border-radius: 55px;
+      width: 200px;
+      height: 56px;
+    }
+    .learn-more{
+      font-size: 18px;
+      line-height: 60px;
+      color: #458FF6;
+      text-decoration: none;
+    }
+
+    /*healthcares-section*/
+
+    .healthcares-section{
+      margin-top: 220px;
+      display: flex;
+    }
+    .heathcares-h1{
+      margin-top: 28px;
+      font-size: 36px;
+      line-height: 56px;
+      margin-right: 192px;
+      margin-left: 142px;
+      width: 432px;
+    }
+    .healthcares-devider{
+      margin-top: 26px;
+      margin-right: 617px;
+      margin-left: 142px;
+    }
+    .healthcares-p{
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 30px;
+      color: #7D7987;
+      margin-right: 223px;
+      margin-left: 142px;
+      width: 450px;
+      mask-type: 32px;
+    }
+    .heathcares-a{
+      margin-left: 137px;
+      margin-right: 478px;
+      margin-top: 40px;
+    }
+    .healthcares-image{
+      margin-left: 135px;
+    }
+
+    /*download apps*/
+
+
+    .download-section{
+      margin-top: 241px;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    .downloads-image{
+      margin-left: 0px;
+      margin: 0px;
+      margin-right: 164px;
+
+    }
+    .downloads-h1{
+      font-size: 36px;
+      line-height: 48px;
+      width: 254px;
+      margin-left: 280px;
+      margin-right: 237px;
+    }
+    .downloads-devider{
+      margin-left: 282px;
+      margin-right: 433px;
+    }
+    .downloads-p{
+      margin-left: 280px;
+      width: 420px;
+      margin-right: 72px;
+    }
+    .downloads-a{
+      margin-right: 241px;
+      margin-left: 280px;
+    }
+    /*rectangle*/
+    .rectangls-section{
+      margin-top: 266px;
+      margin-left: 242px;
+      margin-right: 238px;
+      width: 1120px;
+      background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+      border-radius: 24px;
+    }
+    .rectangles-h1{
+      font-size: 36px;
+      line-height: 48px;
+      color: #FFFFFF;
+      width: 522px;
+      margin-right: 297px;
+      margin-left: 301px;
+      margin-top: 64px;
+      padding-top: 64px;
+
+    }
+    .rectangles-devider{
+      background: #FFFFFF;
+    }
+    .rectangles-img-p{
+      display: flex;
+      /*justify-content: space-between;*/
+    }
+    .edward{
+      margin-left: 33px;
+      
+    }
+    .rectangles-image{
+      margin-top: 97px;
+      margin-bottom: 106px;
+      margin-left: 118px;
+      display: flex;
+      margin-bottom: 83px;  
+    }
+    .rectangles-p{
+      margin-top: 77px;
+      font-size: 19px;
+      line-height: 30px;
+      color: rgba(255, 255, 255, 0.9);
+      margin-right: 118px;
+      width: 420px;
+      margin-left: 110px;
+    }
+    .rectangles-h4{
+      font-size: 22px;
+      line-height: 48px;
+      color: #FFFFFF;
+      padding: 0px;
+      margin: 0px;
+    }
+    .rectangles-pi{
+      font-size: 18px;
+      line-height: 48px;
+      color: rgba(255, 255, 255, 0.85);
+      padding: 0px; 
+      margin-top: 2px;  
+    }
+
+      .vector{
+      display: flex;
+      justify-content: center;
+      margin-top: 42px;
+    }
+    .left{
+      margin-right: 91px;
+      opacity: 0.5;
+    }
+    .right{
+      margin-left: 91px;
+    }
+    .sircle{
+      margin-left: 18px;
+    }
+    .red{
+      opacity: 0.3;
+    }
+
+    /*chesks section*/
+
+      .chesks-list{
+      margin-left: 33px;
+      list-style-type: none;
+      background: #FFFFFF;
+      border-radius: 20px;
+      /*border: solid 1px black;*/
+      width: 350px;
+      box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    }
+    .chesks-conteks{
+      margin-left: 33px;
+    }
+    .chesks-h1{
+      text-align: center;
+      font-size: 36px;
+      line-height: 56px;
+    }
+    .chesks-unorder{
+      margin-top: 72px;
+      display: flex;
+      justify-content: center;
+    }
+    .chesks-image{
+      width: 350px;
+      border-radius: 20px 20px 0px 0px;
+      height: 240px;
+      overflow: hidden;
+    }
+    .chesks-h3{
+      margin-top: 21px;
+      margin-bottom: 12px;
+      width: 251px;
+      font-size: 21px;
+      line-height: 32px;
+    }
+    .chesks-p{
+      width: 266px;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 28px;
+      color: #7D7987;
+    }
+
+    .chesks-a{
+      padding-bottom: 35px;
+      margin-bottom: 35px;
+      margin-top: 25px;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 28px;
+      color: #4089ED;
+      text-decoration: none;
+    }
+
+    /*last-section*/
+
+    .last-section{
+      padding-bottom: 100px;
+      background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%); 
+      display: flex;
+    }
+    .last-para{
+      margin-top: 22px;
+      width: 391px;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 28px;
+      color: #FFFFFF;
+    }
+    .last-parag{
+      margin-top: 31px;
+      width: 391px;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 28px;
+      color: #FFFFFF;
+    }
+    .last-image{
+      margin-top: 124px;
+      background-color: white;
+      width: 160px;
+
+    }
+    .last-content{
+      margin-left: 244px;
+      margin-bottom: 113px;
+    }
+    .last-h4{
+      margin-top: 109px;
+      list-style-type: none;
+      font-size: 20px;
+      line-height: 60px;
+      color: #FFFFFF;
+    }
+    .last-lists{
+      
+      list-style-type: none;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 38px;
+      
+    }
+    .last-list{
+      list-style-type: none;
+    }
+    .last-lists a{
+      text-decoration: none;
+      color: #FFFFFF;
+
+    }
+    .last-ul{
+      margin-left: 145px;
+      margin-left: 
+    }
+    .last-unorder{
+      margin-right: 100px;
+    }
